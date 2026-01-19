@@ -1,1 +1,1 @@
-# NNPTUD_C2_NgoHuuDuc_Week1
+Ngô Hữu Đức - 2280600725
