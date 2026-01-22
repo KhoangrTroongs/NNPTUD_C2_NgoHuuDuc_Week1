@@ -58,17 +58,15 @@ console.log("Cau 5: ", cau5);
 //Cau 6
 let cau6 = [];
 
-cau6 = products.every(
+cau6 = products.filter(
     function(product){
-        if(product.isAvalible == true && product.category == "Accessories"){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return (product.category === "Accessories");
     }
-)
-
+).every(
+    function(product){
+        return product.isAvalible === true;
+    }
+);
 console.log("Cau 6: ", cau6);
 
 //Cau 7
